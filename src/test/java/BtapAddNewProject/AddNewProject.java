@@ -14,7 +14,7 @@ public class AddNewProject {
         driver.manage().window().maximize();
         //Đi đến url
         driver.navigate().to("https://hrm.anhtester.com");
-        Thread.sleep(2000);
+        Thread.sleep(2500);
         //Đăng nhập
         driver.findElement(By.xpath("//div//input[@id='iusername']")).sendKeys("admin01");
         Thread.sleep(2000);

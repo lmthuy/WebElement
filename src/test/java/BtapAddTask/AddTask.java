@@ -49,7 +49,7 @@ public class AddTask {
         Thread.sleep(1000);
         //Giờ ước tính
         driver.findElement(By.xpath("//input[@placeholder='Giờ ước tính']")).sendKeys("50");
-        Thread.sleep(2000);
+        Thread.sleep(2500);
 
         //Dự án
         driver.findElement(By.xpath("//label[contains(text(),'Dự án')]/following-sibling::span")).click();
